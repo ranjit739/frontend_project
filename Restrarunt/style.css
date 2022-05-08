@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+    
+
+}
+ul{
+    display: flex;
+   
+}
+ul li{
+
+    list-style-type: none;
+ 
+   
+    display: inline-block;
+    
+}
+ul li a{
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    font-size: 30px;
+  
+    color: white;
+}
+ul li a:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    text-align: center;
+    width: 50px;
+   
+ 
+}
+#navbar1{
+    background-color: rgb(124, 36, 36, 0.5);
+    width: 100%;
+    opacity: 0.4px;
+    position: fixed;
+
+}
+/* home section */
+#home{
+    padding-top: 35px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+           background:  url('./backg1.jpg') no-repeat center center/cover;
+height: 200px;
+}
+.hp{
+    color: white;
+
+}
+.btn1{
+    background-color: green;
+    font-size: 30px;
+    font-weight: bold;
+}
+.btn1:hover{
+background-color: green;
+color: white;
+}
+.Our_Survice{
+    color: black;
+}
+#servicess-section{
+    display: flex;
+    margin: 20px;
+}
+#servicess-section .sbox{
+  
+    border: 2px solid red;
+    padding: 5px;
+    margin: 3px 6px;
+    border-radius: 28px;
+    background-color: rgba(255, 255, 255, 0.611)
+}
+#servicess-section .sbox img{
+
+    height: 140px;
+    margin: auto;
+    display: block;
+}
+#servicess-section .sbox p,h2{
+    text-align: center;
+    padding: 5px;
+}
+.client{
+    background: url("./backg2.jpg") no-repeat center center/cover;
+}
+.client .logoimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.client .logoimg img{
+    margin: 10px;
+    padding: 10px;
+    height: 80px;
+}
+#contact{
+    display: flex;
+    height: auto;
+    
+    justify-content: center;
+  background: url("./img/contactUs.jpg") no-repeat center center/cover;
+color: white;
+}
+@media (max-width:850px) {
+
+    #servicess-section{
+       width: 100%;
+       margin: 0%;
+      
+        align-items: center;
+        
+    }
+    #servicess-section .sbox{
+  
+       width: 100%;
+      
+        border: none;
+       
+    }
+    #servicess-section .sbox img{
+    
+        width: 100%;
+        height: auto;
+
+        margin: auto;
+        display: block;
+    }
+    #servicess-section .sbox p,h2{
+        text-align: center;
+        padding: 5px;
+    }
+    
+}
+@media (max-width:480px) {
+
+    #servicess-section{
+       width:100%;
+
+    margin: auto;
+    display: block;
+       flex-direction: column;
+      
+        align-items: center;
+        
+    }
+ 
+    .client{
+        background: url("./backg2.jpg") no-repeat center center/cover;
+    }
+    .client .logoimg{
+       flex-direction: column;
+       
+    }
+    .client .logoimg img{
+        margin: 10px;
+        padding: 10px;
+        height: 80px;
+    }
+    #navbar1{
+        background-color: rgb(124, 36, 36, 0.1);
+        width: 100%;
+        opacity: 0.1px;
+        position: fixed;
+        display: flex;
+    
+    }
+    ul{
+        display: flex;
+    }
+    ul li a{
+        color: black;
+        display: block;
+        font-size: 20px;
+       
+        margin: 2px;
+    }
+   
+ 
+}

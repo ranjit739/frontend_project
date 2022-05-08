@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 5px;
+}
+header{
+    background-color: rgb(68, 61, 61);
+}
+
+ .menu-bar ul{
+    background-color: rgb(68, 61, 61);
+   
+    display: flex;
+    justify-content:end;
+
+    top: 100px;
+
+ }
+ .menu-bar ul li {
+     list-style: none;
+     padding: 10px;
+   
+ }
+ .menu-bar ul li a{
+     text-decoration: none;
+     color: white
+ }
+ h1{
+left: 5px;
+color: white;
+
+ padding: 30px;
+ }
+ .headingLine {
+     color: brown;
+     text-align: center;
+     color: white;
+     
+ }
+ #speaker{
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+}
+#speaker .sbox{
+    border: 2px solid red;
+    margin: 10px;
+    display: block;
+}
+#speaker .sbox img{
+width: 200px;
+margin: auto;
+display: block;
+padding: 5px;
+}
+#speaker .sbox h2,p{
+    text-align: center;
+    font-weight: bold;
+
+}
+.headingLine1 {
+    background-color: aqua;
+    color: brown;
+    text-align: center;
+    color: black
+    
+}
+#speaker_info{
+    display: flex;
+    justify-content: center;
+
+}
+#speaker_info .spbox{
+
+    display: block;
+    margin: 20px;
+   
+
+}
+#speaker_info .spbox img{
+width: 100px;
+    
+   margin-left: 100px;
+   margin-right: 100px;
+}
+#footer{
+    display: flex;
+    background-color: aliceblue;
+
+  
+}
+
+#footer .ft{
+   display: block;
+   margin-top: 10px;
+   margin-left: 40px;
+
+  
+  
+}
+
+#footer .ft ul li {
+    list-style-type: disc;
+    margin: 20px;
+ }
+ #footer .ft form{
+  margin-right: 80px;
+    margin-left: 160px;
+   }
+   .copyright{
+       margin-top: 20px;
+       background-color: black;
+       color: white;
+   }
+   button{
+       background-color: blue;
+       font-size: 20px;
+       color: white;
+     
+       padding: auto;
+   }
+   button:hover{
+       background-color: green;
+       margin: 10px;
+       padding: 10px;
+       
+   }
+ 
